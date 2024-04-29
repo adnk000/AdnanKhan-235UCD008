@@ -1,0 +1,16 @@
+import calendar
+
+# Function to create a calendar for a given year and month
+def create_calendar(year, month):
+    # Create a TextCalendar object
+    cal = calendar.TextCalendar(calendar.SUNDAY)  # Starting day of the week is Sunday
+
+    # Format and print the calendar
+    print(cal.formatmonth(year, month))
+
+# Input year and month
+year = int(input("Enter the year: "))
+month = int(input("Enter the month: "))
+
+# Call the function to create the calendar
+create_calendar(year, month)
