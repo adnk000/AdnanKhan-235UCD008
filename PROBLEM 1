@@ -1,6 +1,7 @@
 #mathematical functions from math module
 import math
-x=1.5357
+
+x = 1.5357
 print(math.pi, math.e)
 print(math.sqrt(x))
 print(math.factorial(6))
